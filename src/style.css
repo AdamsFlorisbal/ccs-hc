@@ -39,7 +39,15 @@ header ul li:hover {
 a {
     color: #fff;
     text-decoration: none;
-    padding-left: 30px;
+    padding: 20px 20px;
+}
+
+.presentation{
+    text-align: justify;
+}
+
+.presentation p{
+    margin: 20px 20px 20px 20px;
 }
 
 #arrow {
@@ -66,8 +74,6 @@ a {
     display: block !important;
 }
 body {
-    
-
     background-image: url(lua-terra.jpg);
     background-position: center;
     background-size: 100%;
