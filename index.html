@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Document</title>
+    <title>Adams</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -55,15 +55,33 @@
 
                 </div>
             </div>
+        </main>
+        <main>
             <div>
                 <h3>Projetos pessoais</h3>
                 <div onclick="displayAbout()" id="arrow">
                     <i id="animation" class="fa-solid fa-arrow-down"></i>
                 </div>
                 <div style="display: none;" id="about">
-                    <p>
-                        Naruto
-                    </p>
+                    <section>
+                        <div class="grid-content">
+                            <div>
+                                naruto
+                            </div>
+                            <div>
+                                <video class="video" id="video" src="/src/video/naruto.mp4" width="350" autoplay></video>
+                                <div class="control-video">
+                                <button onclick="playPause()">Play/Pause</button>
+                                <button onclick="makeBig()">Play/Pause</button>
+                                <button onclick="makeNormal()">Play/Pause</button>
+                                </div>
+                            </div>
+                            <div>
+                                description
+                            </div>
+                        </div>
+
+                    </section>
                 </div>
             </div>
             <div class="form">
@@ -77,6 +95,7 @@
 
         </section>
     </main>
+    
     <script src="src/script.js"></script>
 </body>
 

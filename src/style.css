@@ -98,6 +98,8 @@ main {
     border: 1px solid rgba(255, 255, 255, 0.18);
     max-width: 1000px;
     margin: 0 auto;
+    margin-bottom: 10px;
+    padding-bottom: 25px;
 
 }
 
@@ -147,4 +149,14 @@ main {
 .form button:hover{
     background-color: black;
     color: #fff;
+}
+
+.grid-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.control-video{
+
 }
