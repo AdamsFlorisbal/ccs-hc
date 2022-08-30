@@ -157,6 +157,7 @@ main {
     justify-content: center;
 }
 
-.control-video{
-
+.project-text{
+    text-align: justify;
+    margin: 20px 20px 20px 20px;
 }
